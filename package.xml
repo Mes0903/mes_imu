@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>mes_imu</name>
+  <version>1.0.0</version>
+  <description>imu package fork from richards-tech/roscpprtimulib</description>
+
+  <maintainer email="zuz900903@gmail.com">mes</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+</package>

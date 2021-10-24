@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="mes_imu" type="mes_imu" name="rtimulib_node" output="screen">
+        <param name="calibration_file_path" value="$(find mes_imu)"/>
+        <param name="calibration_file_name" value="RTIMULib" />
+        <param name="frame_id" value="map"/>
+        <param name="topic_name" value="imu"/>
+    </node>
+</launch>
